@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rap
+Bundle-SymbolicName: com.eclipsesource.app.rap;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.eclipsesource.app.rap.Activator
+Bundle-Vendor: ECLIPSESOURCE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: com.eclipsesource.app,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.rap.ui;bundle-version="1.4.0"
