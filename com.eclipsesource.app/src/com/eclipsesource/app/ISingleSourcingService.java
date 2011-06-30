@@ -1,7 +1,9 @@
 package com.eclipsesource.app;
 
+import org.eclipse.swt.widgets.Widget;
+
 
 public interface ISingleSourcingService {
 
-  String getCustomVariantString();
+  void applyTheming( Widget widget, String variant );
 }

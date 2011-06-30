@@ -31,7 +31,7 @@ public class Application implements IApplication {
     // Let's get the SingleSourcing service
     ISingleSourcingService service = getSingleSourcingService();
     // Now we set a custom variant which only exists in RAP
-    button.setData( service.getCustomVariantString(), "variant" );
+    service.applyTheming( button, "variant" );
     
     shell.setSize( 500, 500 );
     shell.open();
