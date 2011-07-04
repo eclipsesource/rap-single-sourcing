@@ -9,3 +9,6 @@ Require-Bundle: org.eclipse.rap.ui;bundle-version="1.4.0";resolution:=optional,
  org.eclipse.ui;bundle-version="3.7.0";resolution:=optional,
  org.eclipse.core.runtime;bundle-version="3.7.0"
 Export-Package: com.eclipsesource.app
+Service-Component: OSGI-INF/consument.xml
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: com.eclipsesource.internal.app.Activator

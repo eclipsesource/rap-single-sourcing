@@ -4,9 +4,19 @@
 >
    <extension
          point="org.eclipse.rap.ui.themes">
-      <themeContribution
+      <theme
             file="theme/theme.css"
-            themeId="org.eclipse.rap.rwt.theme.Default">
-      </themeContribution>
+            id="com.eclipsesource.app.rap.theme"
+            name="Test Theme">
+      </theme>
+   </extension>
+   <extension
+         point="org.eclipse.rap.ui.branding">
+      <branding
+            defaultEntrypointId="app"
+            id="com.eclipsesource.app.rap.branding"
+            servletName="ds"
+            themeId="com.eclipsesource.app.rap.theme">
+      </branding>
    </extension>
 </plugin>

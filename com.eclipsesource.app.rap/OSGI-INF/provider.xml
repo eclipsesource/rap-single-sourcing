@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="com.eclipsesource.app.rap.service.provider">
+   <implementation class="com.eclipsesource.app.rap.RAPSingelSourcingService"/>
+   <service>
+      <provide interface="com.eclipsesource.app.ISingleSourcingService"/>
+   </service>
+</scr:component>

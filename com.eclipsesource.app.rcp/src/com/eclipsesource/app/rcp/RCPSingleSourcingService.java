@@ -1,7 +1,8 @@
 package com.eclipsesource.app.rcp;
 
-import com.eclipsesource.app.ISingleSourcingService;
 import org.eclipse.swt.widgets.Widget;
+
+import com.eclipsesource.app.ISingleSourcingService;
 
 public class RCPSingleSourcingService implements ISingleSourcingService {
 

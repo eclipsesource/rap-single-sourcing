@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="com.eclipsesource.app.rcp.service.provider">
+   <implementation class="com.eclipsesource.app.rcp.RCPSingleSourcingService"/>
+   <service>
+      <provide interface="com.eclipsesource.app.ISingleSourcingService"/>
+   </service>
+</scr:component>
